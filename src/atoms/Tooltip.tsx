@@ -1,10 +1,5 @@
 import React from 'react';
-
-interface TooltipProps {
-  content: string;
-  children: React.ReactNode;
-  position?: 'top' | 'bottom' | 'left' | 'right';
-}
+import type { TooltipProps } from '../types';
 
 export default function Tooltip({ content, children, position = 'bottom' }: TooltipProps) {
   const [isVisible, setIsVisible] = React.useState(false);
