@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 import type { HeaderProps } from "../types";
 import { IoLogInOutline } from "react-icons/io5";

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { addUser, getUserByEmail, isValidEmail, isValidPassword } from "../utils";
 import { IoLogInOutline } from "react-icons/io5";

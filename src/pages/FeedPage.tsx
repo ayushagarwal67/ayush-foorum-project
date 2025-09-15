@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import PostEditor from "../components/PostEditor";
 import { getPosts, addPost } from "../utils";
 import PostComponent from "../components/Post";

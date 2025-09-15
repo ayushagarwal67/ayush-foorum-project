@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { MdOutlineModeComment } from "react-icons/md";
 import { TbSend } from "react-icons/tb";
